@@ -1,0 +1,20 @@
+<div class="app-task-launcher">
+	@@include('../launcher-button/launcher-button.html', {"type":
+	"@@type","title": "@@title","count":"@@count"})
+
+	<div class="app-task-launcher__content" id="task-view-@@count">
+		<div class="app-task-launcher__content-header">
+			<div class="app-task-launcher__content-row">
+				<span class="app-task-launcher__content-task">@@type @@count:</span>
+				<span class="app-task-launcher__content-name">@@title</span>
+			</div>
+			<div class="app-task-launcher__content-row">
+				@@include('../simple-button/simple-button.html', {"label": "close",
+				"href":"#/"})
+			</div>
+		</div>
+		<div class="app-task-launcher__content-playground -@@template">
+			@@include('../../practice tasks/@@template/@@template.html')
+		</div>
+	</div>
+</div>
