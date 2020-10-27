@@ -1,4 +1,4 @@
-.task-6 {
+.task-7 {
 	align-items: center;
 	display: flex;
 	font-size: 12px;
@@ -8,7 +8,7 @@
 	width: 80%;
 }
 
-.task-6 > div {
+.task-7 > div {
 	align-items: center;
 	background-color: #3e4dfb;
 	display: flex;
@@ -16,7 +16,7 @@
 	margin: 5px;
 	flex-shrink: 0;
 }
-.task-6 > div:nth-child(even) {
+.task-7 > div:nth-child(even) {
 	background-color: #ff3454;
 }
 
