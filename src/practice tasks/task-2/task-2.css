@@ -1,1 +1,10 @@
-/* Add some classes || ids */
+.app-task-launcher__content-playground.-task-2 button {
+    background: #ff3454;
+    border: 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.app-task-launcher__content-playground.-task-2 span {
+    color: #fff;
+}

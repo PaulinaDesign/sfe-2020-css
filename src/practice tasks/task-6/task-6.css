@@ -6,10 +6,22 @@
 	color: red;
 }
 
+.three.three.classy.selectors{
+	color: black;
+}
+
 .important-selector {
 	color: red !important;
 }
 
+.important-selector.important-selector{
+	color: black !important;
+}
+
 #id-selecta.id-selecta {
 	color: red !important;
+}
+
+#id-selecta.id-selecta#id-selecta {
+	color: black !important;
 }

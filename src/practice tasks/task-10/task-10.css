@@ -17,3 +17,19 @@
 .wizard__power {
 	fill: #ef5798;
 }
+
+.wizard:hover .wizard__outline {
+	fill: blue;
+}
+
+.wizard:hover .wizard__clothes {
+	fill: cornflowerblue;
+}
+
+.wizard:hover .wizard__skin {
+	fill: blanchedalmond;
+}
+
+.wizard:hover .wizard__power {
+	fill: greenyellow;
+}
