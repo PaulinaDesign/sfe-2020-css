@@ -5,12 +5,17 @@
 	<div class="app-task-launcher__content" id="task-view-@@count">
 		<div class="app-task-launcher__content-header">
 			<div class="app-task-launcher__content-row">
-				<span class="app-task-launcher__content-task">@@type @@count:</span>
-				<span class="app-task-launcher__content-name">@@title</span>
-			</div>
-			<div class="app-task-launcher__content-row">
-				@@include('../simple-button/simple-button.html', {"label": "close",
-				"href":"#/"})
+				<div class="app-task-launcher__content-col app-task-launcher__content-col--l">
+					<div class="app-task-launcher__title">
+						<span class="app-task-launcher__content-task">@@type @@count:</span>
+						<span class="app-task-launcher__content-name">@@title</span>
+					</div>
+					<span class="app-task-launcher__content-description">@@description</span>
+				</div>
+				<div class="app-task-launcher__content-col app-task-launcher__content-col--s">
+					@@include('../simple-button/simple-button.html', {"label": "close",
+					"href":"#/"})
+				</div>
 			</div>
 		</div>
 		<div class="app-task-launcher__content-playground -@@template">

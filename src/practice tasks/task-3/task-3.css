@@ -1,14 +1,14 @@
 .large-image {
-	background-image: url("https://picsum.photos/400/200?image=18");
+	background-image: url("https://picsum.photos/id/1002/500/300?image=18");
 	background-position: center;
 	background-size: contain;
-	height: 250px;
+	height: 300px;
 	width: 500px;
 }
 
 .small-image {
-	background-image: url("https://picsum.photos/50/50?image=1");
+	background-image: url("https://picsum.photos/id/1024/100/100?image=1");
 	content: "";
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }

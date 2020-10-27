@@ -2,6 +2,7 @@
 
 :root {
 	--color-white: #fff;
+	--color-grey: #eaeaea;
 	--color-blue: #3e4dfb;
 	--color-red: #ff3454;
 	--color-black: #1c2e36;
@@ -14,14 +15,14 @@
 *,
 *::after,
 *::before {
-	color: var(--color-white);
+	color: var(--color-black);
 	margin: 0;
 	padding: 0;
 }
 
 body {
 	box-sizing: border-box;
-	background-color: var(--color-black);
+	background-color: var(--color-white);
 	overflow: hidden;
 }
 
@@ -44,7 +45,7 @@ body {
 }
 
 .app-heading::after {
-	background-color: var(--color-white);
+	background-color: var(--color-black);
 	content: "";
 	display: block;
 	height: 1px;

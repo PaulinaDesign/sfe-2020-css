@@ -17,7 +17,7 @@
 }
 
 .app-launcher-button__launcher:hover {
-	border: var(--border-width) solid #fff;
+	border: var(--border-width) solid var(--color-grey);
 }
 
 .app-launcher-button__launcher:hover > .app-launcher-button__num::after {

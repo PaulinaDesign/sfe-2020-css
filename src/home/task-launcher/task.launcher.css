@@ -5,7 +5,7 @@
 
 .app-task-launcher__content {
 	align-items: center;
-	background-color: var(--color-black);
+	background-color: var(--color-white);
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
@@ -25,14 +25,28 @@
 }
 
 .app-task-launcher__content-header {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
+	width: 80%;
 	padding: 16px;
 }
 
 .app-task-launcher__content-row {
-	margin-bottom: 40px;
+	display: flex;
+}
+
+.app-task-launcher__content-col {
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	align-items: center;
+}
+
+.app-task-launcher__content-col--l {
+	width: 100%;
+	max-width: 80%;
+}
+
+.app-task-launcher__content-col--s {
+	width: 100%;
+	max-width: 20%;
 }
 
 .app-task-launcher__content-task {
@@ -44,6 +58,10 @@
 	font-weight: 700;
 }
 
+.app-task-launcher__title {
+	margin-bottom: 16px;
+}
+
 .app-task-launcher__content-name {
 	display: inline-block;
 	font-size: 20px;
@@ -51,9 +69,15 @@
 	line-height: 1;
 }
 
+.app-task-launcher__content-description {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+}
+
 .app-task-launcher__content-playground {
 	align-items: center;
-	background-color: var(--color-darker);
+	background-color: var(--color-grey);
 	display: flex;
 	height: 80%;
 	justify-content: center;

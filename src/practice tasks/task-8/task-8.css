@@ -3,17 +3,6 @@
 	width: 100%;
 }
 
-.print-link {
-	display: block;
-	margin-bottom: 40px;
-}
-
-@media print {
-	.print-link::after {
-		content: " (" attr(href) ")";
-	}
-}
-
 .little-grid {
 	background-color: #666;
 	padding: 10px;
@@ -23,7 +12,7 @@
 
 .little-grid__left,
 .little-grid__right {
-	background-color: #999;
+	background-color: #c5c5c5;
 	display: block;
 	margin: 5px;
 	padding: 10px;
