@@ -1,15 +1,4 @@
-.task-5 {
-	display: block;
-}
-
-.three.classy.selectors {
-	color: red;
-}
-
-.important-selector {
-	color: red !important;
-}
-
-#id-selecta.id-selecta {
-	color: red !important;
+.checkbox {
+	align-items: center;
+	display: flex;
 }

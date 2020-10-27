@@ -1,19 +1,22 @@
-.wizard {
+.task-8 {
 	display: block;
+	width: 100%;
 }
 
-.wizard__outline {
-	fill: #010101;
+.little-grid {
+	background-color: #666;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
 }
 
-.wizard__clothes {
-	fill: #9d9ea1;
+.little-grid__left,
+.little-grid__right {
+	background-color: #c5c5c5;
+	display: block;
+	margin: 5px;
+	padding: 10px;
 }
 
-.wizard__skin {
-	fill: #fff;
-}
-
-.wizard__power {
-	fill: #ef5798;
+@media screen and (min-width: 900px) {
 }

@@ -1,19 +1,19 @@
-.flying-wizard {
+.wizard {
 	display: block;
 }
 
-.flying-wizard__outline {
+.wizard__outline {
 	fill: #010101;
 }
 
-.flying-wizard__clothes {
+.wizard__clothes {
 	fill: #9d9ea1;
 }
 
-.flying-wizard__skin {
+.wizard__skin {
 	fill: #fff;
 }
 
-.flying-wizard__power {
+.wizard__power {
 	fill: #ef5798;
 }
