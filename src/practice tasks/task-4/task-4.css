@@ -1,3 +1,24 @@
 .image-container {
 	display: block;
+	position: relative;
+}
+
+.image-container::before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background-image: url('https://www.flaticon.com/svg/static/icons/svg/1828/1828884.svg');
+	background-size: 100%;
+	z-index: 1;
+	top: 5px;
+	right: 5px;
+}
+
+.image-container::after {
+	content: 'Boop!';
+	display: block;
+	color: grey;
+	margin: 5px 0;
 }
