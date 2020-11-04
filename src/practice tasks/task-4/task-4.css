@@ -6,20 +6,3 @@
 	width: 500px;
 	position: relative;
 }
-
-.large-image::before {
-	background-image: url("https://picsum.photos/id/1024/100/100");
-	content: "";
-	height: 100px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100px;
-}
-
-/*.small-image {*/
-/*	background-image: url("https://picsum.photos/id/1024/100/100");*/
-/*	content: "";*/
-/*	height: 100px;*/
-/*	width: 100px;*/
-/*}*/
