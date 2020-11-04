@@ -1,7 +1,3 @@
-.large-image {
-	background-image: url("https://picsum.photos/id/1002/500/300");
-	background-position: center;
-	background-size: contain;
-	height: 300px;
-	width: 500px;
+.image-container {
+	display: block;
 }
