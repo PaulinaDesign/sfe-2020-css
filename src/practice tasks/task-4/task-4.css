@@ -5,10 +5,3 @@
 	height: 300px;
 	width: 500px;
 }
-
-.small-image {
-	background-image: url("https://picsum.photos/id/1024/100/100");
-	content: "";
-	height: 100px;
-	width: 100px;
-}
