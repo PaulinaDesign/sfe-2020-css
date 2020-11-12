@@ -1,1 +1,14 @@
 /* Add some classes || ids */
+
+.button {
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+#button {
+    background-color: brown;
+}
+
+#button_text {
+    color: rgb(227, 235, 160);
+}

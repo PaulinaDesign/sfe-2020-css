@@ -18,5 +18,10 @@
 	padding: 10px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
+	.little-grid__left,
+	.little-grid__right {
+		display: inline-block;
+		width: 45%;
+	}
 }

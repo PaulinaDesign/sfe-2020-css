@@ -1,5 +1,6 @@
 .flying-wizard {
 	display: block;
+	animation: move 5s ease infinite;
 }
 
 .flying-wizard__outline {
@@ -16,4 +17,26 @@
 
 .flying-wizard__power {
 	fill: #ef5798;
+}
+
+
+@keyframes move {
+	0% {
+		transform: translate(0, 0);
+	}
+	20% {
+		transform: translate(20%, 80%);
+	}
+	40% {
+		transform: translate(50%, -40%);
+	}
+	60% {
+		transform: translate(80%, 100%);
+	}
+	80% {
+		transform: translate(30%, 70%);
+	}
+	100% {
+		transform: translateX(0, 0);
+	}
 }

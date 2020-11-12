@@ -2,3 +2,23 @@
 	align-items: center;
 	display: flex;
 }
+
+.fakebox {
+	width: 20px;
+	height: 20px;
+	border: 2px solid rgb(206, 152, 161);
+	padding: 2px;
+	margin-right: 5px;
+}
+
+.input {
+	/*display: none;*/
+}
+
+.input:checked + .fakebox {
+	background-color: pink;
+}
+
+.input:checked ~ {
+	color: magenta;
+}

@@ -6,14 +6,30 @@
 	fill: #010101;
 }
 
+.wizard:hover .wizard__outline {
+	fill: #1f0325;
+}
+
 .wizard__clothes {
 	fill: #9d9ea1;
+}
+
+.wizard:hover .wizard__clothes {
+	fill: #af8719;
 }
 
 .wizard__skin {
 	fill: #fff;
 }
 
+.wizard:hover .wizard__skin {
+	fill: #ffed9f;
+}
+
 .wizard__power {
 	fill: #ef5798;
+}
+
+.wizard:hover .wizard__power {
+	fill: #15c28e;
 }

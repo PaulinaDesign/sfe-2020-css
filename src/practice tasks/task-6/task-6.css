@@ -2,6 +2,16 @@
 	display: block;
 }
 
+/* OVERRIDE */
+.three.classy.selectors.three.classy.selectors {
+	color: black;
+}
+
+div#id-selecta.id-selecta {
+	color: black !important;
+}
+
+
 .three.classy.selectors {
 	color: red;
 }
@@ -13,3 +23,9 @@
 #id-selecta.id-selecta {
 	color: red !important;
 }
+
+/* OVERRIDE */
+.important-selector {
+	color: black !important;
+}
+

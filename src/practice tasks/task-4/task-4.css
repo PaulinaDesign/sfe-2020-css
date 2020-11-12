@@ -1,3 +1,20 @@
 .image-container {
 	display: block;
+	position: relative;
+}
+
+.image-container::before {
+	content: "";
+	background-image: url(https://www.flaticon.com/svg/static/icons/svg/1828/1828884.svg);
+	background-size: 100%;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.image-container::after {
+	content: "Cute puppy you should adopt!";
+	display: block;
 }
